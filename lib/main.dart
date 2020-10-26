@@ -50,7 +50,7 @@ class _State extends State<HomePage> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Retrive Json Data via HTTP"),
+        title: new Text("Retrived Json Data via HTTP"),
       ),
       body: new ListView.builder(
           itemCount: data == null ? 0 : data.length,
